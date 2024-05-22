@@ -14,7 +14,7 @@ describe('User Registration', () => {
 
     it('Registration Page', () => {
         cy.visit(baseUrl);
-
+        
         userRegistration.pageActions.clickRegisterLink().click()
         userRegistration.pageActions.clickMaleCheckBox().click()
         userRegistration.pageActions.enterFirstName().type(firstname)

@@ -21,6 +21,7 @@ describe('Desktop Basket', () => {
     cy.get('#termsofservice').wait(2000).click({force: true})
     cy.get('#checkout').click()
     cy.checkOutAsGuest()
+    
   });
 
   it('HP Desktop Slim Core 2023. HP. PC Desktops & All-in-Ones', () => {
