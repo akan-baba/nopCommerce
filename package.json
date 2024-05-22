@@ -1,0 +1,19 @@
+{
+  "name": "nopcommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "npx cypress run --env ENV=staging & npx cypress run --env ENV=qa & npx cypress run --env ENV=production",
+    "cypress:open": "npx cypress open --env ENV=qa"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.9.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1"
+  }
+}
